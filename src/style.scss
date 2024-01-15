@@ -1,0 +1,55 @@
+
+
+.app{
+    
+    .top{
+
+    }
+    .center{
+        display: flex;
+    }
+}
+.navbar{
+    background-color: rgb(177, 160, 130);
+    padding: 20px;
+}
+
+.side{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    padding: 20px;
+    gap: 10px;
+    border: 1px solid black;
+
+    input{
+        width: 50%;
+    }
+    button{
+        background-color: green;
+        border: none;
+        padding: 10px;
+        border-radius: 5px;
+    }
+}
+.home{
+    flex: 3;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: 5px;
+}
+.footer{
+    padding: 20px;
+    border: 1px solid black;
+    margin-top: 5px;
+    button{
+        margin-top: 5px;
+        padding: 15px;
+        background-color: aqua;
+        border: none;
+        border-radius: 5px;
+    }
+}
